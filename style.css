@@ -35,10 +35,9 @@
 .task-row-wrapper__task,
 .task,
 .task_label {
-  width: 56%;
+  width: 80% !important;
   display: inline-block;
   flex-grow: 1;
-  width: 318px;
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -89,9 +88,8 @@ button:hover {
 }
 
 /* Heading */
-h1,
-h3,
-label[for="new-task"] .new-task {
+
+.task-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
